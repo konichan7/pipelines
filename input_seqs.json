@@ -1,8 +1,8 @@
 {
-    #you can input bigWig files which you want to make corelationship between.
+    //you can input bigWig files which you want to make corelationship between.
   "cross_corr.rna_bws" : ["gs://sylab1/ENCFF328ESS_rna.bigWig","gs://sylab1/ENCFF932MXL_rna.bigWig"],
   "cross_corr.atac_bws" : ["gs://sylab1/ENCFF326LON_atac.bigWig","gs://sylab1/ENCFF341MYG_atac.bigWig","gs://sylab1/ENCFF893GGG_atac.bigWig"],
-    #you can choose which chromosome to focus on.
+    //you can choose which chromosome to focus on.
   "cross_corr.sba1.chr_atac" : "chr19",
   "cross_corr.sba1.chr_rna" : "chr19"
 }
